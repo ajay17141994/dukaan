@@ -1,0 +1,75 @@
+.header-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e6e6;
+    .header-innerwrap{
+        display: flex;
+        width: 100%;
+        padding:12px 16px;
+        align-items: center;
+        .img-wrapper{
+            display: inline-flex;
+            width:56px;
+            height: 56px;
+            .header-ic{
+                width:100%;
+                height: 100%;
+            }
+        }
+        .info-wrap{
+            display: inline-flex;
+            padding-left: 10px;
+            .info-innerwrap{
+                display: flex;
+                flex-direction: column;
+                .heading{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 1.44;
+                    color: #1a181e;
+                }
+                .sub-heading{
+                    display: flex;
+                    margin-top: 2px;
+                    justify-content: flex-start;
+                    .trusted-icwrap{
+                        display: inline-flex;
+                        height: 14px;
+                        width: 14px;
+                        margin-right: 4px;
+                        .trusted-ic{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .trusted-ictext{
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 1.33;
+                        color: #17b31b;
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
+.searchbar-wrap{
+    display: flex;
+    width:100%;
+    .searchbar-innerwrap{
+        display: flex;
+        width: 100%;
+        padding:0px 16px 10px; 
+        .search-input{
+            padding:12px;
+            display: flex;
+            width:100%;
+            border-radius: 6px;
+            background-color: #f2f2f2;
+            border: none;
+        }
+    }
+}

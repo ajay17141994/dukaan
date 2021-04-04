@@ -1,0 +1,43 @@
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+.stickyPopover-innerWrap{
+    background-color:#146eb4;
+    padding:8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-head{
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right-head{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.info-text{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.33;
+    color: #fff;
+    
+}
+.logo-wrap{
+    display: inline-flex;
+    padding-left: 5px;
+}
+.download-text{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #fff;
+    text-decoration: underline;
+}

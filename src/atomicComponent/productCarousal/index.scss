@@ -1,0 +1,36 @@
+.sliderouter-wrapper{
+    display: block;
+    padding:16px 0px 16px 16px;
+    .heading{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #1a181e;
+        padding:0px 0px 16px;
+        text-align: left;
+    }
+    .slider-wrap{
+        display: block;
+        width:124px;
+        height:124px;
+        position: relative;
+        .inner-wrap{
+            display: block;
+            width:100%;
+            height:100%;
+            .section-ic{
+                width:100%;
+                height:100%;
+            }
+        }
+        .section-name{
+            position: absolute;
+            bottom: 10px;
+            left:10px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.33;
+            color: #fff;
+        }
+    }
+}
